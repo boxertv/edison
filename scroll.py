@@ -61,6 +61,7 @@ def scrolling(display):
                     i += 1
                     if (i > text_length):
                         i = 0
+                        break
             time.sleep(0.3)
         except IOError:
             time.sleep(0.1)
